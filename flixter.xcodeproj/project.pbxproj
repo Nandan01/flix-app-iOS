@@ -18,6 +18,9 @@
 		A223E4DD26F0299D006DFC30 /* MoviesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A223E4DC26F0299D006DFC30 /* MoviesViewController.swift */; };
 		A223E4DF26F04205006DFC30 /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A223E4DE26F04205006DFC30 /* MovieCell.swift */; };
 		A223E4E226F04B17006DFC30 /* AlamofireImage in Frameworks */ = {isa = PBXBuildFile; productRef = A223E4E126F04B17006DFC30 /* AlamofireImage */; };
+		A297DF2526F933C800D95E72 /* MovieDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A297DF2426F933C800D95E72 /* MovieDetailsViewController.swift */; };
+		A297DF2726F94E1300D95E72 /* MovieGridViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A297DF2626F94E1300D95E72 /* MovieGridViewController.swift */; };
+		A297DF2926F95BE900D95E72 /* MovieGridCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A297DF2826F95BE900D95E72 /* MovieGridCell.swift */; };
 		C3B2F8C55A0842811C16EEAE /* Pods_flixterTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E487BE787DF5180F38E1620 /* Pods_flixterTests.framework */; };
 		D6A4E9D6B7D5A645ED84F4F5 /* Pods_flixter_flixterUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5896216A77FC055EE1BF564E /* Pods_flixter_flixterUITests.framework */; };
 /* End PBXBuildFile section */
@@ -63,6 +66,9 @@
 		A223E4D026F01A5E006DFC30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A223E4DC26F0299D006DFC30 /* MoviesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesViewController.swift; sourceTree = "<group>"; };
 		A223E4DE26F04205006DFC30 /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
+		A297DF2426F933C800D95E72 /* MovieDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailsViewController.swift; sourceTree = "<group>"; };
+		A297DF2626F94E1300D95E72 /* MovieGridViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieGridViewController.swift; sourceTree = "<group>"; };
+		A297DF2826F95BE900D95E72 /* MovieGridCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieGridCell.swift; sourceTree = "<group>"; };
 		F6712E4B3F68233DB7B9E1EC /* Pods-flixterTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-flixterTests.release.xcconfig"; path = "Target Support Files/Pods-flixterTests/Pods-flixterTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -115,7 +121,6 @@
 				3866FECF4A4472CF86202FC0 /* Pods-flixterTests.debug.xcconfig */,
 				F6712E4B3F68233DB7B9E1EC /* Pods-flixterTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -152,6 +157,9 @@
 				A223E4BA26F01A5D006DFC30 /* Info.plist */,
 				A223E4DC26F0299D006DFC30 /* MoviesViewController.swift */,
 				A223E4DE26F04205006DFC30 /* MovieCell.swift */,
+				A297DF2426F933C800D95E72 /* MovieDetailsViewController.swift */,
+				A297DF2626F94E1300D95E72 /* MovieGridViewController.swift */,
+				A297DF2826F95BE900D95E72 /* MovieGridCell.swift */,
 			);
 			path = flixter;
 			sourceTree = "<group>";
@@ -418,10 +426,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A297DF2526F933C800D95E72 /* MovieDetailsViewController.swift in Sources */,
 				A223E4AD26F01A5B006DFC30 /* AppDelegate.swift in Sources */,
 				A223E4AF26F01A5B006DFC30 /* SceneDelegate.swift in Sources */,
 				A223E4DF26F04205006DFC30 /* MovieCell.swift in Sources */,
 				A223E4DD26F0299D006DFC30 /* MoviesViewController.swift in Sources */,
+				A297DF2726F94E1300D95E72 /* MovieGridViewController.swift in Sources */,
+				A297DF2926F95BE900D95E72 /* MovieGridCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
